@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    background-color: #fff; 
+ 
+}
+
+.headerimg{
+    background-color:white;
+    padding: 1.5rem 0rem 0rem 7.5rem;
+    
+    
+}
+.image-container {
+    position: relative;
+    width: fit-content; 
+    display: inline-block;
+    padding: 1rem 1.5rem 0rem 0rem ;
+    
+  }
+  
+.rectangle{
+    display: block;
+}
+.call{
+    position: absolute;
+    padding: 2.2rem 1rem 1rem 1.2rem;
+    top: 0;
+    left: 0;
+    width: 1.5rem; 
+    height: auto
+}
