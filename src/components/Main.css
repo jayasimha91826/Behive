@@ -2,15 +2,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 6rem;
+    margin-top: 5.5rem;
 
 }
 
 .mainContainer{
     background-image: url('../images/image\ 1936.png');
-    background-color: #e0e0e033;
+    /* background-color: #e0e0e033; */
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 73vw;
-    height: 70vh;
+    height: 80vh;
     /* margin-top: 5rem; */
     
 }

@@ -1,7 +1,25 @@
 .App {
   text-align: center;
-}
 
+
+}
+body{
+  background-color: #F9FAFF !important;
+}
+.footer{
+  position: relative;
+  top:9rem;
+  color: #DDDDDD;
+  background-color: #222E34;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+.appContainer{
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
