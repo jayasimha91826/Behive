@@ -1,0 +1,169 @@
+.promoContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  /* background-color: #2e2c2c; */
+  /* padding: 2rem; */
+  margin-left: 8rem;
+  /* margin-top: 1rem; */
+  border-radius: 10px;
+  height: 313px;
+  /* box-shadow: 0 4px 6px rgb(245, 241, 241); */
+}
+
+.mobileContainer {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 1rem;  */
+  position: relative;
+  top: -6rem;
+  left: 1.5rem;
+
+
+}
+
+.mobileImages {
+  position: relative;
+  width: 40%;
+  margin-top: 2rem;
+}
+
+.mobileImages img {
+  /* width: 100%; */
+  max-width: 200px;
+}
+
+.mobile1 {
+  position: absolute;
+  top: -1rem;
+  left: 0;
+  z-index: 2;
+}
+
+.download {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #605F5F;
+  margin: 4rem 0rem 2rem 8rem;
+}
+
+.mobile2 {
+  position: absolute;
+  top: 0.65rem;
+  left: 11rem;
+  z-index: 1;
+}
+
+.promoText {
+  position: relative;
+  background-color: #FFFFFF;
+  top: 11rem;
+  color: #605F5F;
+  /* font-size: 16px; */
+  border-radius: 1rem;
+  /* border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem; */
+  text-align: left;
+  /* right:-1rem; */
+  /* word-break: break-word; */
+  width: 100%;
+  padding: 2rem;
+}
+
+/* .promoText h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  } */
+
+.promoText p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #666;
+  /* position: relative; */
+  margin-left: 33rem;
+  margin-bottom: 1rem;
+}
+
+.downloadButtons {
+  display: flex;
+  margin-left: 13rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.downloadButton {
+  width: 150px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .download {
+    margin: 0;
+    padding-left: 8px;
+    font-size: 24px;
+  }
+
+  .promoText-text {
+    display: none;
+  }
+
+  .mobile1 {
+    position: relative;
+    top: 9rem;
+    width: 156.4px;
+    height: 329.43px;
+    border-radius: 14.25px 0px 0px 0px;
+    opacity: 0px;
+
+  }
+
+  .mobile2 {
+    position: relative;
+    top: -11.3rem;
+    width: 156.4px;
+    height: 321.43px;
+    border-radius: 14.25px 0px 0px 0px;
+    opacity: 0px;
+    left: 147px;
+  }
+
+  .mobileContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -27%;
+    width: 320px;
+    height: 296px;
+  }
+
+  .promoContainer {
+    flex-direction: column;
+    width: 320px;
+height: 296px;
+border-radius: 8px 0px 0px 0px;
+border: 0.5px 0px 0px 0px;
+opacity: 0px;
+
+  }
+
+  .downloadButtons {
+    margin: 0;
+    position: relative;
+    margin: 0;
+    top: -299%;
+    left: 109%;
+
+  }
+  .promoText{
+    position: relative;
+    top: 90%;
+    right: 117vw;
+  }
+}

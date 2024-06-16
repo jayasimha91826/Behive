@@ -1,6 +1,6 @@
 import React from "react";
 import "./Main.css";
-import mainImage from '../images/Vector 7.png';
+import mainImage from '../../images/Vector 7.png';
 
 const Main = () => {
   return (
@@ -8,9 +8,7 @@ const Main = () => {
       <div className="mainContainer">
         <p className="mainHeading">
           Host your meeting with
-          <br />
           world-class amenitites.
-          <br />
           Starting at <span className="span">₹199/-!</span>
         </p>
       </div>
