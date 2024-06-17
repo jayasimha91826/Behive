@@ -1,4 +1,12 @@
-[
+import pic0 from './images/0a74575ca6004b4bb20dcd131afc5849.jpg'
+import pic0d from './images/0dfe4977f25940aa9d32507d4a233c9c.jpg'
+import pic4 from './images/4d85410baa074351aa948fc2c5da50d9.jpg'
+import pic5 from './images/5934c0fd9d574bddbde8175d86a2d2da.jpg'
+import pice from './images/e2d0405175f74b5c815658a8ef5ef4b8.jpg'
+import platinum1 from "./images/Frame 4.png";
+import workspace3 from "./images/Frame 6.png";
+import campus1 from "./images/Frame 5.png";
+export const spaceList = [
   {
     "id": "39ab7642-8de3-4e95-aa5d-34089bc67b90",
     "name": "Platinum, Indiranagar",
@@ -13,7 +21,7 @@
     "description": null,
     "rules": null,
     "amenities": ["Conferencing facilities", "Parking"],
-    "images": ["static_assets/5934c0fd9d574bddbde8175d86a2d2da.jpg"],
+    "images": [pic5,platinum1],
     "working_hours_start": "00:00",
     "working_hours_end": "23:59",
     "contact_person_name": "Lavena",
@@ -46,7 +54,7 @@
     "description": null,
     "rules": null,
     "amenities": ["Conferencing facilities", "Parking"],
-    "images": ["static_assets/e2d0405175f74b5c815658a8ef5ef4b8.jpg"],
+    "images": [pice,campus1],
     "working_hours_start": "00:00",
     "working_hours_end": "23:59",
     "facilities": null,
@@ -79,7 +87,7 @@
     "description": null,
     "rules": null,
     "amenities": ["Conferencing facilities", "Parking"],
-    "images": ["static_assets/0a74575ca6004b4bb20dcd131afc5849.jpg"],
+    "images": [pic0,workspace3],
     "working_hours_start": "00:00",
     "working_hours_end": "23:59",
     "facilities": null,
@@ -112,7 +120,7 @@
     "description": null,
     "rules": null,
     "amenities": null,
-    "images": ["static_assets/0dfe4977f25940aa9d32507d4a233c9c.jpg"],
+    "images": [pic0d,workspace3],
     "working_hours_start": "00:00",
     "working_hours_end": "23:59",
     "facilities": null,
@@ -145,7 +153,7 @@
     "description": null,
     "rules": null,
     "amenities": ["Conferencing facilities", "Parking"],
-    "images": ["static_assets/4d85410baa074351aa948fc2c5da50d9.jpg"],
+    "images": [pic4,workspace3],
     "working_hours_start": "00:00",
     "working_hours_end": "23:59",
     "facilities": null,

@@ -9,14 +9,12 @@ const Final = () => {
   return (
     <>
       <h1 className="download"> Download Our App Now</h1>
-      <div className="promoContainer">
-        <div className="mobileContainer">
-          <div className="mobileImages">
+      <div className="container-promo">
+        <div className="mobile-container">
             <img src={mobile1} alt="Mobile 1" className="mobile1" />
             <img src={mobile2} alt="Mobile 2" className="mobile2" />
-          </div>
         </div>
-        <div className="promoText">
+        <div className="">
           <p className="promoText-text">
             Boost your productivity with the BHIVE Workspace app. <br />
             Elevate your workspace, collaborate efficiently, and unlock

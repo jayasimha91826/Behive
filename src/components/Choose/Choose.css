@@ -1,20 +1,18 @@
 .chooseContainer {
     margin-left: 8rem;
-    /* background-color: red; */
+    transition: transform 0.3s ease;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    /* text-align: center; */
+    justify-content: space-around;
     width: 275px;
     height: 80px;
     margin: 6px;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    /* position: relative; */
     overflow: hidden;
 }
 
@@ -29,7 +27,6 @@
     width: 100vw;
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     flex-wrap: wrap;
 }
 
@@ -42,15 +39,9 @@
 }
 
 .icon img {
-    /* width: 30px; */
     margin-left: 8px;
-    /* height: auto; */
-    /* margin-bottom: 10px; */
+    margin-right: 10px;
 }
-
-/* .heading {
-     padding-top: 2rem; 
-} */
 
 .text .heading {
     margin: 10px 0 5px 2px;
@@ -59,20 +50,22 @@
 
 .heading1 {
     transition: transform 0.3s ease;
+    padding-top: 36px;
 }
 
 .oneliner {
     opacity: 0;
-    margin-left: 2rem;
+    margin-left: 0.6rem;
     transition: opacity 0.3s ease, transform 0.3s ease;
     transform: translateY(20px);
-    font-size: 14px;
+    font-size: 10px;
     color: #666;
+    padding: 0px 6px 6px 0px;
 }
 
 .container:hover{
     transform: translate(10px, -10px);
-    height: max-content;
+    transition: transform 0.3s ease;
 }
 .container:hover .oneliner {
     opacity: 1;
@@ -89,28 +82,14 @@
     transform: translate(10px, -10px);
     font-weight: 600;
 }
+.heading{
+    padding-top: 36px;
+}
 
-
-/* .vector {
-    margin-top: 22px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-} */
 
 .star {
     position: relative;
-    top: -25px;
-    left: 8px;
-    /* margin-top: 2rem;
-    margin-left: 5px;
-    position: absolute;
-
-    top: 0;
-    left: 0;
-    padding: 10px 0px 0px 10px;
-    z-index: 1; */
+    left: -37px;
 }
 
 .head {
@@ -125,7 +104,6 @@
 @media (max-width: 768px) {
     .chooseContainer {
         margin-left: 0;
-        /* Remove left margin */
     }
 
     .row {
@@ -145,9 +123,6 @@
     .star {
         position: relative;
         top: 0px;
-        left: -25px;
-        /* margin-top: 1rem; */
-        /* Adjust margin for stars */
     }
     .oneliner{
         margin: 0px;
@@ -165,5 +140,6 @@
         font-weight: 500;
         line-height: 16.94px;
         text-align: center;
+        padding: 0;
     }
 }

@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Inter');
-/* .App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-} */
 body{
   background-color: #F9FAFF !important;
   box-sizing: border-box !important;
@@ -12,8 +6,6 @@ body{
 }
 
 .footer{
-  position: relative;
-  top:9rem;
   color: #DDDDDD;
   background-color: #222E34;
   text-align: center;
@@ -24,18 +16,11 @@ body{
   background-color: #fafafa;
   display: flex;
   flex-direction: column;
-  /* align-items: center;
-  text-align: center; */
+  overflow: hidden;
 }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -59,5 +44,31 @@ body{
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 8px; 
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 5px; 
+}
+
+
+body::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 5px; 
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+@media (max-width: 768px) {
+  .footer {
+    top: 0rem !important;
+    z-index: 100;
   }
 }
